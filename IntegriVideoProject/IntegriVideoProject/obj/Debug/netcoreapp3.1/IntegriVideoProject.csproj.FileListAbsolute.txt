@@ -1,0 +1,4 @@
+E:\mine\integrivideo-framework\IntegriVideoProject\IntegriVideoProject\bin\Debug\netcoreapp3.1\WebCore.dll
+E:\mine\integrivideo-framework\IntegriVideoProject\IntegriVideoProject\obj\Debug\netcoreapp3.1\IntegriVideoProject.csprojAssemblyReference.cache
+E:\mine\integrivideo-framework\IntegriVideoProject\IntegriVideoProject\obj\Debug\netcoreapp3.1\IntegriVideoProject.AssemblyInfoInputs.cache
+E:\mine\integrivideo-framework\IntegriVideoProject\IntegriVideoProject\obj\Debug\netcoreapp3.1\IntegriVideoProject.AssemblyInfo.cs
