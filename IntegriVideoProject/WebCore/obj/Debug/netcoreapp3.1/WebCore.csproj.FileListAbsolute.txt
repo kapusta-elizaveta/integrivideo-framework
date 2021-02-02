@@ -7,3 +7,12 @@ E:\mine\integrivideo-framework\IntegriVideoProject\WebCore\obj\Debug\netcoreapp3
 E:\mine\integrivideo-framework\IntegriVideoProject\WebCore\obj\Debug\netcoreapp3.1\WebCore.csproj.CoreCompileInputs.cache
 E:\mine\integrivideo-framework\IntegriVideoProject\WebCore\obj\Debug\netcoreapp3.1\WebCore.dll
 E:\mine\integrivideo-framework\IntegriVideoProject\WebCore\obj\Debug\netcoreapp3.1\WebCore.pdb
+F:\integrivideo-framework\IntegriVideoProject\WebCore\bin\Debug\netcoreapp3.1\WebCore.deps.json
+F:\integrivideo-framework\IntegriVideoProject\WebCore\bin\Debug\netcoreapp3.1\WebCore.dll
+F:\integrivideo-framework\IntegriVideoProject\WebCore\bin\Debug\netcoreapp3.1\WebCore.pdb
+F:\integrivideo-framework\IntegriVideoProject\WebCore\obj\Debug\netcoreapp3.1\WebCore.csprojAssemblyReference.cache
+F:\integrivideo-framework\IntegriVideoProject\WebCore\obj\Debug\netcoreapp3.1\WebCore.csproj.CoreCompileInputs.cache
+F:\integrivideo-framework\IntegriVideoProject\WebCore\obj\Debug\netcoreapp3.1\WebCore.AssemblyInfoInputs.cache
+F:\integrivideo-framework\IntegriVideoProject\WebCore\obj\Debug\netcoreapp3.1\WebCore.AssemblyInfo.cs
+F:\integrivideo-framework\IntegriVideoProject\WebCore\obj\Debug\netcoreapp3.1\WebCore.dll
+F:\integrivideo-framework\IntegriVideoProject\WebCore\obj\Debug\netcoreapp3.1\WebCore.pdb

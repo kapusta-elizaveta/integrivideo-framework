@@ -15,10 +15,17 @@ namespace IntegriVideoProject.Test
     //[AllureDisplayIgnored]
     public class BasePageTest
     {
-        [SetUp]
+        /*[SetUp]
         public void SetupTest()
         {
             BrowserFactory.InitBrowser(ConfigurationManager.AppSettings["Browser"]);
+            BrowserFactory.Driver.Manage().Window.Maximize();
+        }*/
+        
+        [SetUp]
+        public void SetupTest()
+        {
+            BrowserFactory.InitBrowser("Chrome");
             BrowserFactory.Driver.Manage().Window.Maximize();
         }
 

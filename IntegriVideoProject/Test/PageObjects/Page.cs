@@ -6,7 +6,7 @@ using OpenQA.Selenium.Support.PageObjects;
 
 namespace IntegriVideoProject.PageObjects
 {
-    class Page
+    public class Page
     {
         private static T GetPage<T>() where T : new()
         {

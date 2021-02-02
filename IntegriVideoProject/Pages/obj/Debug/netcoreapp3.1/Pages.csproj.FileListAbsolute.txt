@@ -1,0 +1,15 @@
+F:\integrivideo-framework\IntegriVideoProject\Pages\bin\Debug\netcoreapp3.1\Pages.deps.json
+F:\integrivideo-framework\IntegriVideoProject\Pages\bin\Debug\netcoreapp3.1\Pages.dll
+F:\integrivideo-framework\IntegriVideoProject\Pages\bin\Debug\netcoreapp3.1\Pages.pdb
+F:\integrivideo-framework\IntegriVideoProject\Pages\bin\Debug\netcoreapp3.1\Services.dll
+F:\integrivideo-framework\IntegriVideoProject\Pages\bin\Debug\netcoreapp3.1\WebCore.dll
+F:\integrivideo-framework\IntegriVideoProject\Pages\bin\Debug\netcoreapp3.1\Services.pdb
+F:\integrivideo-framework\IntegriVideoProject\Pages\bin\Debug\netcoreapp3.1\WebCore.pdb
+F:\integrivideo-framework\IntegriVideoProject\Pages\obj\Debug\netcoreapp3.1\Pages.csprojAssemblyReference.cache
+F:\integrivideo-framework\IntegriVideoProject\Pages\obj\Debug\netcoreapp3.1\Pages.csproj.CoreCompileInputs.cache
+F:\integrivideo-framework\IntegriVideoProject\Pages\obj\Debug\netcoreapp3.1\Pages.AssemblyInfoInputs.cache
+F:\integrivideo-framework\IntegriVideoProject\Pages\obj\Debug\netcoreapp3.1\Pages.AssemblyInfo.cs
+F:\integrivideo-framework\IntegriVideoProject\Pages\obj\Debug\netcoreapp3.1\Pages.csproj.CopyComplete
+F:\integrivideo-framework\IntegriVideoProject\Pages\obj\Debug\netcoreapp3.1\Pages.dll
+F:\integrivideo-framework\IntegriVideoProject\Pages\obj\Debug\netcoreapp3.1\Pages.pdb
+F:\integrivideo-framework\IntegriVideoProject\Pages\bin\Debug\netcoreapp3.1\Pages.dll.config

@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\e.kapusta\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\e.kapusta\\.nuget\\packages"
+      "C:\\Users\\kapus\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\kapus\\.nuget\\packages"
     ]
   }
 }

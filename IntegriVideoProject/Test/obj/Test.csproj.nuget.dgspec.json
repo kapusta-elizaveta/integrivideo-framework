@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\mine\\integrivideo-framework\\IntegriVideoProject\\Test\\Test.csproj": {}
+    "F:\\integrivideo-framework\\IntegriVideoProject\\Test\\Test.csproj": {}
   },
   "projects": {
-    "E:\\mine\\integrivideo-framework\\IntegriVideoProject\\Test\\Test.csproj": {
+    "F:\\integrivideo-framework\\IntegriVideoProject\\Pages\\Pages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\mine\\integrivideo-framework\\IntegriVideoProject\\Test\\Test.csproj",
-        "projectName": "Test",
-        "projectPath": "E:\\mine\\integrivideo-framework\\IntegriVideoProject\\Test\\Test.csproj",
-        "packagesPath": "C:\\Users\\e.kapusta\\.nuget\\packages\\",
-        "outputPath": "E:\\mine\\integrivideo-framework\\IntegriVideoProject\\Test\\obj\\",
+        "projectUniqueName": "F:\\integrivideo-framework\\IntegriVideoProject\\Pages\\Pages.csproj",
+        "projectName": "Pages",
+        "projectPath": "F:\\integrivideo-framework\\IntegriVideoProject\\Pages\\Pages.csproj",
+        "packagesPath": "C:\\Users\\kapus\\.nuget\\packages\\",
+        "outputPath": "F:\\integrivideo-framework\\IntegriVideoProject\\Pages\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\e.kapusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kapus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,10 +26,12 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\mine\\integrivideo-framework\\IntegriVideoProject\\WebCore\\WebCore.csproj": {
-                "projectPath": "E:\\mine\\integrivideo-framework\\IntegriVideoProject\\WebCore\\WebCore.csproj"
+              "F:\\integrivideo-framework\\IntegriVideoProject\\Services\\Services.csproj": {
+                "projectPath": "F:\\integrivideo-framework\\IntegriVideoProject\\Services\\Services.csproj"
+              },
+              "F:\\integrivideo-framework\\IntegriVideoProject\\WebCore\\WebCore.csproj": {
+                "projectPath": "F:\\integrivideo-framework\\IntegriVideoProject\\WebCore\\WebCore.csproj"
               }
             }
           }
@@ -42,7 +44,137 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\integrivideo-framework\\IntegriVideoProject\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\integrivideo-framework\\IntegriVideoProject\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "F:\\integrivideo-framework\\IntegriVideoProject\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\kapus\\.nuget\\packages\\",
+        "outputPath": "F:\\integrivideo-framework\\IntegriVideoProject\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kapus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.OleDb": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\integrivideo-framework\\IntegriVideoProject\\Test\\Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\integrivideo-framework\\IntegriVideoProject\\Test\\Test.csproj",
+        "projectName": "Test",
+        "projectPath": "F:\\integrivideo-framework\\IntegriVideoProject\\Test\\Test.csproj",
+        "packagesPath": "C:\\Users\\kapus\\.nuget\\packages\\",
+        "outputPath": "F:\\integrivideo-framework\\IntegriVideoProject\\Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kapus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\integrivideo-framework\\IntegriVideoProject\\Pages\\Pages.csproj": {
+                "projectPath": "F:\\integrivideo-framework\\IntegriVideoProject\\Pages\\Pages.csproj"
+              },
+              "F:\\integrivideo-framework\\IntegriVideoProject\\WebCore\\WebCore.csproj": {
+                "projectPath": "F:\\integrivideo-framework\\IntegriVideoProject\\WebCore\\WebCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
           "dependencies": {
             "Allure.Commons": {
               "target": "Package",
@@ -160,21 +292,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\mine\\integrivideo-framework\\IntegriVideoProject\\WebCore\\WebCore.csproj": {
+    "F:\\integrivideo-framework\\IntegriVideoProject\\WebCore\\WebCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\mine\\integrivideo-framework\\IntegriVideoProject\\WebCore\\WebCore.csproj",
+        "projectUniqueName": "F:\\integrivideo-framework\\IntegriVideoProject\\WebCore\\WebCore.csproj",
         "projectName": "WebCore",
-        "projectPath": "E:\\mine\\integrivideo-framework\\IntegriVideoProject\\WebCore\\WebCore.csproj",
-        "packagesPath": "C:\\Users\\e.kapusta\\.nuget\\packages\\",
-        "outputPath": "E:\\mine\\integrivideo-framework\\IntegriVideoProject\\WebCore\\obj\\",
+        "projectPath": "F:\\integrivideo-framework\\IntegriVideoProject\\WebCore\\WebCore.csproj",
+        "packagesPath": "C:\\Users\\kapus\\.nuget\\packages\\",
+        "outputPath": "F:\\integrivideo-framework\\IntegriVideoProject\\WebCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\e.kapusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kapus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -186,7 +318,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -198,7 +329,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Dapper": {
               "target": "Package",
@@ -248,7 +378,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

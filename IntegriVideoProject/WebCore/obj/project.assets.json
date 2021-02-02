@@ -5633,19 +5633,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\e.kapusta\\.nuget\\packages\\": {}
+    "C:\\Users\\kapus\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\mine\\integrivideo-framework\\IntegriVideoProject\\WebCore\\WebCore.csproj",
+      "projectUniqueName": "F:\\integrivideo-framework\\IntegriVideoProject\\WebCore\\WebCore.csproj",
       "projectName": "WebCore",
-      "projectPath": "E:\\mine\\integrivideo-framework\\IntegriVideoProject\\WebCore\\WebCore.csproj",
-      "packagesPath": "C:\\Users\\e.kapusta\\.nuget\\packages\\",
-      "outputPath": "E:\\mine\\integrivideo-framework\\IntegriVideoProject\\WebCore\\obj\\",
+      "projectPath": "F:\\integrivideo-framework\\IntegriVideoProject\\WebCore\\WebCore.csproj",
+      "packagesPath": "C:\\Users\\kapus\\.nuget\\packages\\",
+      "outputPath": "F:\\integrivideo-framework\\IntegriVideoProject\\WebCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\e.kapusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kapus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5657,7 +5657,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -5669,7 +5668,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Dapper": {
             "target": "Package",
@@ -5719,7 +5717,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

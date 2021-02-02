@@ -1,0 +1,9 @@
+F:\integrivideo-framework\IntegriVideoProject\Services\obj\Debug\netcoreapp3.1\Services.csprojAssemblyReference.cache
+F:\integrivideo-framework\IntegriVideoProject\Services\obj\Debug\netcoreapp3.1\Services.csproj.CoreCompileInputs.cache
+F:\integrivideo-framework\IntegriVideoProject\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfoInputs.cache
+F:\integrivideo-framework\IntegriVideoProject\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfo.cs
+F:\integrivideo-framework\IntegriVideoProject\Services\bin\Debug\netcoreapp3.1\Services.deps.json
+F:\integrivideo-framework\IntegriVideoProject\Services\bin\Debug\netcoreapp3.1\Services.dll
+F:\integrivideo-framework\IntegriVideoProject\Services\bin\Debug\netcoreapp3.1\Services.pdb
+F:\integrivideo-framework\IntegriVideoProject\Services\obj\Debug\netcoreapp3.1\Services.dll
+F:\integrivideo-framework\IntegriVideoProject\Services\obj\Debug\netcoreapp3.1\Services.pdb

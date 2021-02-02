@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "E:\\mine\\integrivideo-framework\\IntegriVideoProject\\Test\\Test.csproj",
+    "projectUniqueName": "F:\\integrivideo-framework\\IntegriVideoProject\\Test\\Test.csproj",
     "projectName": "Test",
-    "projectPath": "E:\\mine\\integrivideo-framework\\IntegriVideoProject\\Test\\Test.csproj",
-    "outputPath": "E:\\mine\\integrivideo-framework\\IntegriVideoProject\\Test\\obj\\",
+    "projectPath": "F:\\integrivideo-framework\\IntegriVideoProject\\Test\\Test.csproj",
+    "outputPath": "F:\\integrivideo-framework\\IntegriVideoProject\\Test\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
@@ -15,7 +15,14 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "F:\\integrivideo-framework\\IntegriVideoProject\\Pages\\Pages.csproj": {
+            "projectPath": "F:\\integrivideo-framework\\IntegriVideoProject\\Pages\\Pages.csproj"
+          },
+          "F:\\integrivideo-framework\\IntegriVideoProject\\WebCore\\WebCore.csproj": {
+            "projectPath": "F:\\integrivideo-framework\\IntegriVideoProject\\WebCore\\WebCore.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -39,6 +46,14 @@
           "target": "Package",
           "version": "[1.3.4, )"
         },
+        "Dapper": {
+          "target": "Package",
+          "version": "[2.0.78, )"
+        },
+        "DotNetSeleniumExtras.WaitHelpers": {
+          "target": "Package",
+          "version": "[3.11.0, )"
+        },
         "Drapper": {
           "target": "Package",
           "version": "[1.2.0, )"
@@ -54,6 +69,22 @@
         "MSTest.TestFramework": {
           "target": "Package",
           "version": "[2.1.1, )"
+        },
+        "Microsoft.Extensions.Configuration": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Microsoft.Extensions.Configuration.Abstractions": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Microsoft.Extensions.Configuration.FileExtensions": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Microsoft.Extensions.Configuration.Json": {
+          "target": "Package",
+          "version": "[5.0.0, )"
         },
         "Microsoft.NET.Test.Sdk": {
           "target": "Package",
@@ -91,6 +122,10 @@
           "target": "Package",
           "version": "[88.0.4324.9600, )"
         },
+        "System.Data.OleDb": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
         "coverlet.collector": {
           "target": "Package",
           "version": "[1.3.0, )"
@@ -115,7 +150,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
     }
   }
 }
