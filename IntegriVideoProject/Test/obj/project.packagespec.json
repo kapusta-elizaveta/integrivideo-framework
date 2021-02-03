@@ -15,7 +15,11 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "E:\\mine\\integrivideo-framework\\IntegriVideoProject\\WebCore\\WebCore.csproj": {
+            "projectPath": "E:\\mine\\integrivideo-framework\\IntegriVideoProject\\WebCore\\WebCore.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -39,6 +43,14 @@
           "target": "Package",
           "version": "[1.3.4, )"
         },
+        "Dapper": {
+          "target": "Package",
+          "version": "[2.0.78, )"
+        },
+        "DotNetSeleniumExtras.WaitHelpers": {
+          "target": "Package",
+          "version": "[3.11.0, )"
+        },
         "Drapper": {
           "target": "Package",
           "version": "[1.2.0, )"
@@ -54,6 +66,22 @@
         "MSTest.TestFramework": {
           "target": "Package",
           "version": "[2.1.1, )"
+        },
+        "Microsoft.Extensions.Configuration": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Microsoft.Extensions.Configuration.Abstractions": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Microsoft.Extensions.Configuration.FileExtensions": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Microsoft.Extensions.Configuration.Json": {
+          "target": "Package",
+          "version": "[5.0.0, )"
         },
         "Microsoft.NET.Test.Sdk": {
           "target": "Package",
@@ -90,6 +118,10 @@
         "Selenium.WebDriver.ChromeDriver": {
           "target": "Package",
           "version": "[88.0.4324.9600, )"
+        },
+        "System.Data.OleDb": {
+          "target": "Package",
+          "version": "[5.0.0, )"
         },
         "coverlet.collector": {
           "target": "Package",
