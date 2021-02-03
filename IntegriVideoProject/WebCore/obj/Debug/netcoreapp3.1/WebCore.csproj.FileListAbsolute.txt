@@ -1,9 +1,0 @@
-E:\mine\integrivideo-framework\IntegriVideoProject\WebCore\bin\Debug\netcoreapp3.1\WebCore.deps.json
-E:\mine\integrivideo-framework\IntegriVideoProject\WebCore\bin\Debug\netcoreapp3.1\WebCore.dll
-E:\mine\integrivideo-framework\IntegriVideoProject\WebCore\bin\Debug\netcoreapp3.1\WebCore.pdb
-E:\mine\integrivideo-framework\IntegriVideoProject\WebCore\obj\Debug\netcoreapp3.1\WebCore.csprojAssemblyReference.cache
-E:\mine\integrivideo-framework\IntegriVideoProject\WebCore\obj\Debug\netcoreapp3.1\WebCore.AssemblyInfoInputs.cache
-E:\mine\integrivideo-framework\IntegriVideoProject\WebCore\obj\Debug\netcoreapp3.1\WebCore.AssemblyInfo.cs
-E:\mine\integrivideo-framework\IntegriVideoProject\WebCore\obj\Debug\netcoreapp3.1\WebCore.csproj.CoreCompileInputs.cache
-E:\mine\integrivideo-framework\IntegriVideoProject\WebCore\obj\Debug\netcoreapp3.1\WebCore.dll
-E:\mine\integrivideo-framework\IntegriVideoProject\WebCore\obj\Debug\netcoreapp3.1\WebCore.pdb
