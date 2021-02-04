@@ -53,61 +53,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e76804b-dc73-4624-9ce1-8bc8a60264dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Pages/App.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/Configurations/Environment.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/PageObjects/Page.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntegriVideoProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntegriVideoProject/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntegriVideoProject/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntegriVideoProject/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IntegriVideoProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntegriVideoProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntegriVideoProject.sln" beforeDir="false" afterPath="$PROJECT_DIR$/IntegriVideoProject.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Configurations/Environment.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/PageObjects/Page.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/PageObjects/Page.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Pages/Billing/BillingPage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Billing/BillingPage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Pages/Billing/NewCardPage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Billing/NewCardPage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Pages/LoginPage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/LoginPage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Pages/MainPage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/MainPage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Pages/Projects/CreateProjectPage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Projects/CreateProjectPage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Pages/Projects/EditProjectPage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Projects/EditProjectPage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Pages/Projects/NewComponentPage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Projects/NewComponentPage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Pages/Projects/ProjectPage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Projects/ProjectPage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Pages/Projects/ProjectsPage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Projects/ProjectsPage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Test.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Test.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Test/BasePageTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Test/BasePageTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/TestDataAccess/ExcelDataAccess.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/TestDataAccess/ExcelDataAccess.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/TestDataAccess/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Services/TestDataAccess/TestData.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/TestDataAccess/UserData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/TestDataAccess/UserData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/WrapperFactory/BrowserFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebCore/WrapperFactory/BrowserFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/bin/Debug/netcoreapp3.1/Pages.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/bin/Debug/netcoreapp3.1/Pages.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/bin/Debug/netcoreapp3.1/Pages.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/bin/Debug/netcoreapp3.1/Pages.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/bin/Debug/netcoreapp3.1/WebCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/bin/Debug/netcoreapp3.1/WebCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/bin/Debug/netcoreapp3.1/WebCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/bin/Debug/netcoreapp3.1/WebCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/obj/Debug/netcoreapp3.1/Pages.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/obj/Debug/netcoreapp3.1/Pages.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/obj/Debug/netcoreapp3.1/Pages.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/obj/Debug/netcoreapp3.1/Pages.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/obj/Debug/netcoreapp3.1/Pages.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/obj/Debug/netcoreapp3.1/Pages.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/obj/Debug/netcoreapp3.1/Pages.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/obj/Debug/netcoreapp3.1/Pages.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Pages.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Pages.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Pages.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Pages.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/WebCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/WebCore.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/WebCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/WebCore.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/nunit_random_seed.tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/Test.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Test.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/Test.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Test.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebCore/bin/Debug/netcoreapp3.1/WebCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebCore/bin/Debug/netcoreapp3.1/WebCore.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebCore/bin/Debug/netcoreapp3.1/WebCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebCore/bin/Debug/netcoreapp3.1/WebCore.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCore/obj/Debug/netcoreapp3.1/WebCore.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebCore/obj/Debug/netcoreapp3.1/WebCore.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCore/obj/Debug/netcoreapp3.1/WebCore.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebCore/obj/Debug/netcoreapp3.1/WebCore.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCore/obj/Debug/netcoreapp3.1/WebCore.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebCore/obj/Debug/netcoreapp3.1/WebCore.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCore/obj/Debug/netcoreapp3.1/WebCore.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebCore/obj/Debug/netcoreapp3.1/WebCore.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCore/obj/Debug/netcoreapp3.1/WebCore.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebCore/obj/Debug/netcoreapp3.1/WebCore.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebCore/obj/Debug/netcoreapp3.1/WebCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebCore/obj/Debug/netcoreapp3.1/WebCore.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebCore/obj/Debug/netcoreapp3.1/WebCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebCore/obj/Debug/netcoreapp3.1/WebCore.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCore/obj/WebCore.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebCore/obj/WebCore.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCore/obj/WebCore.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/WebCore/obj/WebCore.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCore/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebCore/obj/project.assets.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,11 +84,14 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3B29829A-85B4-4E9F-9EDB-063EC7FF0327/24/ConfigurationManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///C# Console" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pages/Configurations/Environment.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/25FC80EE-4F1E-4425-A8D4-B6FAFDAB219A/8/NameValueCollection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebCore/Configurator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Billing/BillingPage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebCore/Browser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Billing/NewCardPage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Projects/ProjectsPage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebCore/BrowserTypes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Projects/NewComponentPage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Projects/ProjectPage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Projects/CreateProjectPage.cs" root0="FORCE_HIGHLIGHTING" />
@@ -137,6 +104,7 @@
     <setting file="file://$PROJECT_DIR$/Test/Test/BasePageTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/TestDataAccess/UserData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/TestDataAccess/ExcelDataAccess.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebCore/WrapperFactory/BrowserFactory.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -158,6 +126,9 @@
         <option value="$PROJECT_DIR$/Pages/Billing/NewCardPage.cs" />
         <option value="$PROJECT_DIR$/Services/Services.csproj" />
         <option value="$PROJECT_DIR$/Test/Test/BasePageTest.cs" />
+        <option value="$PROJECT_DIR$/Pages/FullPage.cs" />
+        <option value="$PROJECT_DIR$/WebCore/Configurator.cs" />
+        <option value="$PROJECT_DIR$/Pages/LoginPage.cs" />
       </list>
     </option>
   </component>
@@ -208,7 +179,7 @@
       <updated>1612256932588</updated>
       <workItem from="1612256954657" duration="22000" />
       <workItem from="1612258642163" duration="57000" />
-      <workItem from="1612291395316" duration="3876000" />
+      <workItem from="1612291395316" duration="5516000" />
     </task>
     <servers />
   </component>
@@ -234,86 +205,86 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1612295144797">
+    <state width="1323" height="290" key="GridCell.Tab.0.bottom" timestamp="1612296944393">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612295144797" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1612295144796">
+    <state width="1323" height="290" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612296944393" />
+    <state width="1323" height="290" key="GridCell.Tab.0.center" timestamp="1612296944393">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1612295144796" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1612295144796">
+    <state width="1323" height="290" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1612296944393" />
+    <state width="1323" height="290" key="GridCell.Tab.0.left" timestamp="1612296944378">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1612295144796" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1612295144797">
+    <state width="1323" height="290" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1612296944378" />
+    <state width="1323" height="290" key="GridCell.Tab.0.right" timestamp="1612296944393">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1612295144797" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1612295150193">
+    <state width="1323" height="290" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1612296944393" />
+    <state width="1323" height="290" key="GridCell.Tab.1.bottom" timestamp="1612296944393">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612295150193" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1612295150192">
+    <state width="1323" height="290" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612296944393" />
+    <state width="1323" height="290" key="GridCell.Tab.1.center" timestamp="1612296944393">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1612295150192" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1612295150192">
+    <state width="1323" height="290" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1612296944393" />
+    <state width="1323" height="290" key="GridCell.Tab.1.left" timestamp="1612296944393">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1612295150192" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1612295150193">
+    <state width="1323" height="290" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1612296944393" />
+    <state width="1323" height="290" key="GridCell.Tab.1.right" timestamp="1612296944393">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1612295150193" />
-    <state width="1323" height="223" key="GridCell.Tab.2.bottom" timestamp="1612295144620">
+    <state width="1323" height="290" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1612296944393" />
+    <state width="1323" height="290" key="GridCell.Tab.2.bottom" timestamp="1612296944393">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612295144620" />
-    <state width="1323" height="223" key="GridCell.Tab.2.center" timestamp="1612295144620">
+    <state width="1323" height="290" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612296944393" />
+    <state width="1323" height="290" key="GridCell.Tab.2.center" timestamp="1612296944393">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1612295144620" />
-    <state width="1323" height="223" key="GridCell.Tab.2.left" timestamp="1612295144620">
+    <state width="1323" height="290" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1612296944393" />
+    <state width="1323" height="290" key="GridCell.Tab.2.left" timestamp="1612296944393">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1612295144620" />
-    <state width="1323" height="223" key="GridCell.Tab.2.right" timestamp="1612295144620">
+    <state width="1323" height="290" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1612296944393" />
+    <state width="1323" height="290" key="GridCell.Tab.2.right" timestamp="1612296944393">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1612295144620" />
-    <state width="1323" height="223" key="GridCell.Tab.3.bottom" timestamp="1612295144620">
+    <state width="1323" height="290" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1612296944393" />
+    <state width="1323" height="290" key="GridCell.Tab.3.bottom" timestamp="1612296944393">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612295144620" />
-    <state width="1323" height="223" key="GridCell.Tab.3.center" timestamp="1612295144620">
+    <state width="1323" height="290" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612296944393" />
+    <state width="1323" height="290" key="GridCell.Tab.3.center" timestamp="1612296944393">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1612295144620" />
-    <state width="1323" height="223" key="GridCell.Tab.3.left" timestamp="1612295144620">
+    <state width="1323" height="290" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1612296944393" />
+    <state width="1323" height="290" key="GridCell.Tab.3.left" timestamp="1612296944393">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1612295144620" />
-    <state width="1323" height="223" key="GridCell.Tab.3.right" timestamp="1612295144620">
+    <state width="1323" height="290" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1612296944393" />
+    <state width="1323" height="290" key="GridCell.Tab.3.right" timestamp="1612296944393">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1612295144620" />
-    <state width="1323" height="223" key="GridCell.Tab.4.bottom" timestamp="1612295144621">
+    <state width="1323" height="290" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1612296944393" />
+    <state width="1323" height="290" key="GridCell.Tab.4.bottom" timestamp="1612296944393">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.4.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612295144621" />
-    <state width="1323" height="223" key="GridCell.Tab.4.center" timestamp="1612295144620">
+    <state width="1323" height="290" key="GridCell.Tab.4.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612296944393" />
+    <state width="1323" height="290" key="GridCell.Tab.4.center" timestamp="1612296944393">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.4.center/0.0.1366.728@0.0.1366.728" timestamp="1612295144620" />
-    <state width="1323" height="223" key="GridCell.Tab.4.left" timestamp="1612295144620">
+    <state width="1323" height="290" key="GridCell.Tab.4.center/0.0.1366.728@0.0.1366.728" timestamp="1612296944393" />
+    <state width="1323" height="290" key="GridCell.Tab.4.left" timestamp="1612296944393">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.4.left/0.0.1366.728@0.0.1366.728" timestamp="1612295144620" />
-    <state width="1323" height="223" key="GridCell.Tab.4.right" timestamp="1612295144621">
+    <state width="1323" height="290" key="GridCell.Tab.4.left/0.0.1366.728@0.0.1366.728" timestamp="1612296944393" />
+    <state width="1323" height="290" key="GridCell.Tab.4.right" timestamp="1612296944393">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.4.right/0.0.1366.728@0.0.1366.728" timestamp="1612295144621" />
+    <state width="1323" height="290" key="GridCell.Tab.4.right/0.0.1366.728@0.0.1366.728" timestamp="1612296944393" />
     <state x="275" y="96" key="Rider.ProjectTemplateDialog.Size" timestamp="1612292938987">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
