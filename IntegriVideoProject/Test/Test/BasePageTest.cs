@@ -7,6 +7,7 @@ using NUnit.Framework;
 using NUnit.Framework.Interfaces;
 using OpenQA.Selenium;
 using System.Configuration;
+using WebCore;
 
 namespace IntegriVideoProject.Test
 {
@@ -15,6 +16,7 @@ namespace IntegriVideoProject.Test
     //[AllureDisplayIgnored]
     public class BasePageTest
     {
+        public Browser _browser;
         /*[SetUp]
         public void SetupTest()
         {
@@ -25,11 +27,12 @@ namespace IntegriVideoProject.Test
         [SetUp]
         public void SetupTest()
         {
-            BrowserFactory.InitBrowser("Chrome");
-            BrowserFactory.Driver.Manage().Window.Maximize();
+            _browser = new Browser();
+           // BrowserFactory.InitBrowser("Chrome");
+           // BrowserFactory.Driver.Manage().Window.Maximize();
         }
 
-        private void TakeScreenshot()
+        /*private void TakeScreenshot()
         {
             if (TestContext.CurrentContext.Result.Outcome != ResultState.Success)
             {
@@ -37,13 +40,13 @@ namespace IntegriVideoProject.Test
                 var screenshot = ((ITakesScreenshot)BrowserFactory.Driver).GetScreenshot(); 
                 AllureLifecycle.Instance.AddAttachment(fileName, "image/png", screenshot.AsByteArray);
             }
-        }
+        }*/
 
         [TearDown]
         public void TearDown()
         {
-            TakeScreenshot();
-            BrowserFactory.CloseDriver();
+           // TakeScreenshot();
+            //BrowserFactory.CloseDriver();
         }
     }
 }

@@ -2,8 +2,8 @@
 {
     public enum BrowserTypes
     {
-        chrome,
-        firefox,
-        ie
+        Chrome,
+        Firefox,
+        Ie
     }
 }

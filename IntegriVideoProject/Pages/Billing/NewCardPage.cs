@@ -15,6 +15,8 @@ namespace IntegriVideoProject.Pages.Billing
 
         public static UIElement InputNumberCard => new UIElement(FindBy.Xpath,
              "//input[@placeholder='0000 0000 0000 0000']");
+        
+        public static UIElement AppearWrongMessage => new UIElement(FindBy.Xpath, "//input[@placeholder='MM']");
 
         public static UIElement InputMonth => new UIElement(FindBy.Xpath, "//input[@placeholder='MM']");
 
@@ -42,15 +44,16 @@ namespace IntegriVideoProject.Pages.Billing
             InputMonth.SendKeys(month);
             InputYear.SendKeys(year);
             InputCardholderName.SendKeys(cardholderName);
-            new WebDriverWait(BrowserFactory.Driver, TimeSpan.FromSeconds(30)).Until(ExpectedConditions
-                 .ElementToBeClickable(By.XPath(XPATH_ADD_CARD_BUTTON)));
+            //new WebDriverWait(BrowserFactory.Driver, TimeSpan.FromSeconds(30)).Until(ExpectedConditions
+            //     .ElementToBeClickable(By.XPath(XPATH_ADD_CARD_BUTTON)));
             AddButton.Click();
         }
 
         public bool IsWrongCard()
         {
-            new WebDriverWait(BrowserFactory.Driver, TimeSpan.FromSeconds(5)).Until(ExpectedConditions
-                .ElementIsVisible(By.XPath(XPATH_APPEAR_WRONG_MESSAGE)));
+            new Browser().WaitForElementClickable(AppearWrongMessage);
+            //new WebDriverWait(BrowserFactory.Driver, TimeSpan.FromSeconds(5)).Until(ExpectedConditions
+             //   .ElementIsVisible(By.XPath(XPATH_APPEAR_WRONG_MESSAGE)));
             return true;
         }
     }

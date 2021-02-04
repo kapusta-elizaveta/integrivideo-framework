@@ -37,10 +37,11 @@ namespace IntegriVideoProject.Pages
 
         public ProjectsPage LogIn(string testName)
         {
-            BrowserFactory.LoadApplication(ConfigurationManager.AppSettings["URL"]);
+           /// BrowserFactory.LoadApplication(ConfigurationManager.AppSettings["URL"]);
+            // BrowserFactory.LoadApplication("https://dev.integrivideo.com/app/projects");
             var userData = ExcelDataAccess.GetTestData(testName);
-            new WebDriverWait(BrowserFactory.Driver, TimeSpan.FromSeconds(10))
-                .Until(ExpectedConditions.ElementExists(By.XPath(XPATH_EMAIL)));
+            /*new WebDriverWait(BrowserFactory.Driver, TimeSpan.FromSeconds(10))
+                .Until(ExpectedConditions.ElementExists(By.XPath(XPATH_EMAIL)));*/
             InputEmail.SendKeys(userData.Email);
             InputPassword.SendKeys(userData.Password);
             LogInButton.Click();

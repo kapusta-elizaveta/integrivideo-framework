@@ -44,8 +44,10 @@ namespace IntegriVideoProject.Pages.Projects
 
         public int OpenProjectsPage(string xpathCountProject)
         {
-            ((IJavaScriptExecutor)BrowserFactory.Driver).ExecuteScript("window.open()");
-            BrowserFactory.Driver.SwitchTo().Window(BrowserFactory.Driver.WindowHandles.Last());
+            Browser.Current.OpenNewTab();
+            //((IJavaScriptExecutor)BrowserFactory.Driver).ExecuteScript("window.open()");
+            Browser.Current.SwitchToLastWindow();
+            //BrowserFactory.Driver.SwitchTo().Window(BrowserFactory.Driver.WindowHandles.Last());
             BrowserFactory.Driver.Url = ConfigurationManager.AppSettings["URL"];
             return BrowserFactory.Driver.FindElements(By.XPath(xpathCountProject)).Count;
         }

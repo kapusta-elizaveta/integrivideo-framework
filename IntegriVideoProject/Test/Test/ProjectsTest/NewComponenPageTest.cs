@@ -1,6 +1,7 @@
 ﻿using IntegriVideoProject.PageObjects;
 using IntegriVideoProject.WrapperFactory;
 using NUnit.Framework;
+using WebCore;
 
 namespace IntegriVideoProject.Test.ProjectsTest
 {
@@ -15,7 +16,8 @@ namespace IntegriVideoProject.Test.ProjectsTest
         {
             Page.Login.LogIn("LogInTest");
             Page.NewComponent.CreateComponent(COMPONENT_NAME);
-            BrowserFactory.Driver.Navigate().Refresh();
+            Browser.Current.Refresh();
+           // BrowserFactory.Driver.Navigate().Refresh();
             Assert.AreEqual(BUTTON_UPDATE, Page.NewComponent.ComponentCode.Text, "Component isn't created");
         }
     }

@@ -64,8 +64,8 @@ namespace IntegriVideoProject.Pages.Projects
 
         public ProjectPage OpenProject()
         {
-            new WebDriverWait(BrowserFactory.Driver, TimeSpan.FromSeconds(30))
-                .Until(ExpectedConditions.ElementExists(By.XPath(XPATH_PROJECT_LINK)));
+            /*new WebDriverWait(BrowserFactory.Driver, TimeSpan.FromSeconds(30))
+                .Until(ExpectedConditions.ElementExists(By.XPath(XPATH_PROJECT_LINK)));*/
             ProjectLink.Click();
             return new ProjectPage();
         }
