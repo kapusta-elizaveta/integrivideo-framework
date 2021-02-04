@@ -48,8 +48,11 @@ namespace IntegriVideoProject.Pages.Projects
             //((IJavaScriptExecutor)BrowserFactory.Driver).ExecuteScript("window.open()");
             Browser.Current.SwitchToLastWindow();
             //BrowserFactory.Driver.SwitchTo().Window(BrowserFactory.Driver.WindowHandles.Last());
-            BrowserFactory.Driver.Url = ConfigurationManager.AppSettings["URL"];
-            return BrowserFactory.Driver.FindElements(By.XPath(xpathCountProject)).Count;
+            
+            //BrowserFactory.Driver.Url = ConfigurationManager.AppSettings["URL"];
+            
+            //return BrowserFactory.Driver.FindElements(By.XPath(xpathCountProject)).Count;
+            return Browser.Current.CountElements(By.XPath(xpathCountProject));
         }
     }
 }

@@ -198,6 +198,11 @@ namespace WebCore
             Thread.Sleep(100);
         }
 
+        public int CountElements(By locator)
+        {
+            return WrappedDriver.FindElements(locator).Count;
+        }
+
         public void JsMouseOver(IWebElement element)
         {
             WrappedDriver.ExecuteJavaScript<object>(
@@ -565,6 +570,11 @@ namespace WebCore
             return Current.WrappedDriver.WindowHandles.Count;
         }
 
+        public string GetCurrentWindowName()
+        {
+            return WrappedDriver.CurrentWindowHandle;
+        }
+
         public void SwitchToLastWindow()
         {
             AssertDisposed();
@@ -576,6 +586,11 @@ namespace WebCore
         {
             AssertDisposed();
             Current.WrappedDriver.SwitchTo().Window(WrappedDriver.WindowHandles.First());
+        }
+
+        public void SwitchWindowByName(string windowName)
+        {
+            WrappedDriver.SwitchTo().Window(windowName);
         }
 
         public void CloseLastTabAndSwitchToFirst()

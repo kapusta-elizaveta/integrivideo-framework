@@ -37,6 +37,8 @@ namespace IntegriVideoProject.Pages
 
         public ProjectsPage LogIn(string testName)
         {
+            string ff = ConfigurationManager.AppSettings["URL"];
+            Browser.Current.GoTo(ConfigurationManager.AppSettings["URL"]);
            /// BrowserFactory.LoadApplication(ConfigurationManager.AppSettings["URL"]);
             // BrowserFactory.LoadApplication("https://dev.integrivideo.com/app/projects");
             var userData = ExcelDataAccess.GetTestData(testName);

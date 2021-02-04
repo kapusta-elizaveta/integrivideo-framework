@@ -18,13 +18,14 @@ namespace IntegriVideoProject.Test.ProjectsTest
         public void CreateProjectTest()
         {
             Page.Login.LogIn("LogInTest");
-            int oldCountProject = BrowserFactory.Driver.FindElements(By.XPath(XPATH_COUNT_PROJECTS)).Count;
+            //int oldCountProject = BrowserFactory.Driver.FindElements(By.XPath(XPATH_COUNT_PROJECTS)).Count;
+            int oldCountProject = Browser.Current.CountElements(By.XPath(XPATH_COUNT_PROJECTS));
             Page.CreateProject.AddProject(PROJECT_NAME, PROJECT_DISCRIPTION, DOMAIN);
-            string parentWindowHandle = BrowserFactory.Driver.CurrentWindowHandle;
+            string parentWindowHandle = Browser.Current.GetCurrentWindowName();
             int newCountProjects = Page.CreateProject.OpenProjectsPage(XPATH_COUNT_PROJECTS);
             Browser.Current.CloseWindow();
             //BrowserFactory.Driver.Close();
-            BrowserFactory.Driver.SwitchTo().Window(parentWindowHandle);
+            Browser.Current.SwitchWindowByName(parentWindowHandle);
             Assert.AreEqual(newCountProjects, ++oldCountProject, "Project isn't created");      
         }
     }
