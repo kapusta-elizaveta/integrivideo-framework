@@ -11,13 +11,6 @@ namespace IntegriVideoProject.Pages.Projects
 
         public UIElement ComponentCode => new UIElement(FindBy.Xpath, "//button[@class='btn']");
 
-       /* public void CreateComponent(string componentName)
-        {
-            Page.Project.AddComponent();
-            InputComponentName.SendKeys(componentName, "Component name");
-            CreateButton.Click("Create component button");
-        }*/
-
         public void CreateComponent(string componentName)
         {
             Page.Project.AddComponent();

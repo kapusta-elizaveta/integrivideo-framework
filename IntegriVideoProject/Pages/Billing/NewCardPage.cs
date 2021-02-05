@@ -1,8 +1,4 @@
 ﻿using IntegriVideoProject.PageObjects;
-using IntegriVideoProject.WrapperFactory;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Support.UI;
-using System;
 using WebCore;
 using WebCore.Elements;
 
@@ -25,17 +21,6 @@ namespace IntegriVideoProject.Pages.Billing
         public static UIElement InputCardholderName => new UIElement(FindBy.Xpath,
             "//input[@placeholder='Cardholder name']");
         public static UIElement AddButton => new UIElement(FindBy.Xpath, XPATH_ADD_CARD_BUTTON);
-        /*public void AddWrongCard(string numberCard, string month, string year , string cardholderName)
-        {
-            Page.Billing.OpenCardPage();
-            InputNumberCard.SendKeys(numberCard, "Number card");
-            InputMonth.SendKeys(month, "Month");
-            InputYear.SendKeys(year, "Year");
-            InputCardholderName.SendKeys(cardholderName, "Cardholder name");
-            new WebDriverWait(BrowserFactory.Driver, TimeSpan.FromSeconds(30)).Until(ExpectedConditions
-                 .ElementToBeClickable(By.XPath(XPATH_ADD_CARD_BUTTON)));
-            AddButton.Click("Add card button");
-        }*/
 
         public void AddWrongCard(string numberCard, string month, string year, string cardholderName)
         {
@@ -44,16 +29,12 @@ namespace IntegriVideoProject.Pages.Billing
             InputMonth.SendKeys(month);
             InputYear.SendKeys(year);
             InputCardholderName.SendKeys(cardholderName);
-            //new WebDriverWait(BrowserFactory.Driver, TimeSpan.FromSeconds(30)).Until(ExpectedConditions
-            //     .ElementToBeClickable(By.XPath(XPATH_ADD_CARD_BUTTON)));
             AddButton.Click();
         }
 
         public bool IsWrongCard()
         {
-            new Browser().WaitForElementClickable(AppearWrongMessage);
-            //new WebDriverWait(BrowserFactory.Driver, TimeSpan.FromSeconds(5)).Until(ExpectedConditions
-             //   .ElementIsVisible(By.XPath(XPATH_APPEAR_WRONG_MESSAGE)));
+            new Browser().WaitForElementVisible(AppearWrongMessage);
             return true;
         }
     }

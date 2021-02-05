@@ -1,5 +1,4 @@
 ﻿using IntegriVideoProject.PageObjects;
-using IntegriVideoProject.WrapperFactory;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using WebCore;
@@ -18,13 +17,11 @@ namespace IntegriVideoProject.Test.ProjectsTest
         public void CreateProjectTest()
         {
             Page.Login.LogIn("LogInTest");
-            //int oldCountProject = BrowserFactory.Driver.FindElements(By.XPath(XPATH_COUNT_PROJECTS)).Count;
             int oldCountProject = Browser.Current.CountElements(By.XPath(XPATH_COUNT_PROJECTS));
             Page.CreateProject.AddProject(PROJECT_NAME, PROJECT_DISCRIPTION, DOMAIN);
             string parentWindowHandle = Browser.Current.GetCurrentWindowName();
             int newCountProjects = Page.CreateProject.OpenProjectsPage(XPATH_COUNT_PROJECTS);
             Browser.Current.CloseWindow();
-            //BrowserFactory.Driver.Close();
             Browser.Current.SwitchWindowByName(parentWindowHandle);
             Assert.AreEqual(newCountProjects, ++oldCountProject, "Project isn't created");      
         }

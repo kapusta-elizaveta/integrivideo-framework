@@ -12,19 +12,6 @@ namespace IntegriVideoProject.Pages.Projects
 
         public UIElement ProjectDescription => new UIElement(FindBy.Xpath, "//div[@class='col-12 description']");
 
-        /*public void AddComponent()
-        {           
-            Page.Projects.OpenProject();
-            IconComponentAdd.Click("Add component");
-        }
-
-        public EditProjectPage OpenEditProject()
-        {
-            Page.Projects.OpenProject();
-            EditComponentLink.Click("Edit component");
-            return new EditProjectPage();
-        }*/
-
         public void AddComponent()
         {
             Page.Projects.OpenProject();

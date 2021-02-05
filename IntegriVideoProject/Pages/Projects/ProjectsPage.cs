@@ -1,9 +1,5 @@
 ﻿using IntegriVideoProject.PageObjects;
 using IntegriVideoProject.Pages.Billing;
-using IntegriVideoProject.WrapperFactory;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Support.UI;
-using System;
 using WebCore;
 using WebCore.Elements;
 
@@ -23,32 +19,6 @@ namespace IntegriVideoProject.Pages.Projects
 
         public UIElement LinkBilling => new UIElement(FindBy.Xpath, "//span[@class='iv-icon iv-icon-credit-card']");
 
-        /* public MainPage LogOut()
-         {
-             Page.Login.LogOutIcon.Click("Exit button");
-             return new MainPage();
-         }
-
-         public CreateProjectPage OpenAddProject()
-         {
-             AddProjectButton.Click("Add project button");
-             return new CreateProjectPage();
-         }
-
-         public ProjectPage OpenProject()
-         {
-             new WebDriverWait(BrowserFactory.Driver, TimeSpan.FromSeconds(30))
-                 .Until(ExpectedConditions.ElementExists(By.XPath(XPATH_PROJECT_LINK)));
-             ProjectLink.Click("Open project");
-             return new ProjectPage();
-         }
-
-         public BillingPage OpenBilling()
-         {
-             LinkBilling.Click("Open Billing");
-             return new BillingPage();
-         }*/
-
         public MainPage LogOut()
         {
             
@@ -64,8 +34,6 @@ namespace IntegriVideoProject.Pages.Projects
 
         public ProjectPage OpenProject()
         {
-            /*new WebDriverWait(BrowserFactory.Driver, TimeSpan.FromSeconds(30))
-                .Until(ExpectedConditions.ElementExists(By.XPath(XPATH_PROJECT_LINK)));*/
             ProjectLink.Click();
             return new ProjectPage();
         }

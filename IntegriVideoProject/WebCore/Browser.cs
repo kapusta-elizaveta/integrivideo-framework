@@ -30,7 +30,8 @@ namespace WebCore
 
         public Browser()
         {
-            /*IWebDriverEx driver;
+            IWebDriverEx driver;
+
             switch (Configurator.BrowserType)
             {
                 case "chrome":
@@ -40,24 +41,6 @@ namespace WebCore
                     driver = new DriverFactory().GetFirefoxDriver();
                     break;
                 case "ie":
-                    driver = new DriverFactory().GetInternetExplorerDriver();
-                    break;
-                default:
-                    driver = new DriverFactory().GetChromeDriver();
-                    break;
-            }*/
-            
-            IWebDriverEx driver;
-
-            switch (BrowserTypes.Chrome)
-            {
-                case BrowserTypes.Chrome:
-                    driver = new DriverFactory().GetChromeDriver();
-                    break;
-                case BrowserTypes.Firefox:
-                    driver = new DriverFactory().GetFirefoxDriver();
-                    break;
-                case BrowserTypes.Ie:
                     driver = new DriverFactory().GetInternetExplorerDriver();
                     break;
                 default:

@@ -8,12 +8,12 @@ namespace IntegriVideoProject.Test
     {
         private const string TEXT_LOG_IN_BUTTON = "Log in";
 
-        /*[Test, Description("LogOut Test")]
+        [Test, Description("LogOut Test")]
         public void LogOutTest()
         {
             Page.Login.LogIn("LogInTest");
             Page.Projects.LogOut();
-            Assert.AreEqual(TEXT_LOG_IN_BUTTON, Page.MainPage.LogInButton.Text, "Clicking “Logout” doesn’t logout the user");
-        }*/
+            Assert.AreEqual(TEXT_LOG_IN_BUTTON, Page.MainPage.LogInButton().Text, "Clicking “Logout” doesn’t logout the user");
+        }
     }
 }

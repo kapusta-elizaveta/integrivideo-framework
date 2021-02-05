@@ -24,10 +24,6 @@ namespace WebCore
         //public static string DownloadFolder => Configuration[nameof(DownloadFolder)];
         public static string DownloadFolder => m_downloadFolder;
         public static string AnonymousWorkflowEmailTemplate => Configuration[nameof(AnonymousWorkflowEmailTemplate)];
-        public static string ImapServer => Configuration[nameof(ImapServer)];
-        public static string SmptServer => Configuration[nameof(SmptServer)];
-        public static int ImapPort => int.Parse(Configuration[nameof(ImapPort)]);
-        public static int SmptPort => int.Parse(Configuration[nameof(SmptPort)]);
         public static string Email => Configuration[nameof(Email)];
         public static string Password => Configuration[nameof(Password)];
         public static TimeSpan EmailWaitTime => TimeSpan.Parse(Configuration[nameof(EmailWaitTime)]);

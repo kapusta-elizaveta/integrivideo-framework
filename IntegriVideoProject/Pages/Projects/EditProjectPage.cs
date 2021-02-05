@@ -10,14 +10,6 @@ namespace IntegriVideoProject.Pages.Projects
 
         public UIElement UpdateButton => new UIElement(FindBy.Xpath, "//button[@class='btn']");
 
-        /* public ProjectsPage EditDescription(string description)
-         {
-             Page.Project.OpenEditProject();
-             Description.SendKeys(description, "Description");
-             UpdateButton.Click("Update project button");
-             return new ProjectsPage();
-         }*/
-
         public ProjectsPage EditDescription(string description)
         {
             Page.Project.OpenEditProject();
