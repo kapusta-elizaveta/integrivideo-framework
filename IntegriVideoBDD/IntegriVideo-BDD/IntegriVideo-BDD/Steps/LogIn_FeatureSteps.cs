@@ -37,9 +37,7 @@ namespace IntegriVideo_BDD.Steps
         [Given(@"User is in LogIn")]
         public void GivenUserIsInLogIn()
         {
-            GivenUserIsAtTheLogInPage();
-            GivenUserEnterUsernameAndPassword(Configurator.Email, Configurator.Password);
-            WhenClickOnTheLogInButton();
+            Page.Login.LogIn("LogIn");
         }
 
         [When(@"Click on the LogOut button")]
