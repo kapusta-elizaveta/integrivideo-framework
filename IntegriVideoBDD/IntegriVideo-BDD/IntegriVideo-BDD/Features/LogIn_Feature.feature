@@ -9,3 +9,8 @@ Scenario: Successful Login with Valid Credentials
 	And User enter 'integriuser2@mailinator.com' username and 'integripassword' password
 	When Click on the LogIn button
 	Then LogOut button should display
+
+Scenario: Successful LogOut
+    Given User is in LogIn
+	When Click on the LogOut button
+	Then LogIn button should display

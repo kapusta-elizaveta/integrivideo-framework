@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegriVideo", "IntegriVideo-BDD\IntegriVideo.csproj", "{BB6A5391-5815-4EC2-9A59-C79FCEA731B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pages", "Pages\Pages.csproj", "{DE23A6ED-B659-4412-B7AF-5124A23AC7E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCore", "WebCore\WebCore.csproj", "{A8FC08CE-2B55-42FE-AAF2-7361C6F86A11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{BB6A5391-5815-4EC2-9A59-C79FCEA731B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB6A5391-5815-4EC2-9A59-C79FCEA731B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB6A5391-5815-4EC2-9A59-C79FCEA731B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE23A6ED-B659-4412-B7AF-5124A23AC7E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE23A6ED-B659-4412-B7AF-5124A23AC7E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE23A6ED-B659-4412-B7AF-5124A23AC7E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE23A6ED-B659-4412-B7AF-5124A23AC7E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8FC08CE-2B55-42FE-AAF2-7361C6F86A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8FC08CE-2B55-42FE-AAF2-7361C6F86A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8FC08CE-2B55-42FE-AAF2-7361C6F86A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8FC08CE-2B55-42FE-AAF2-7361C6F86A11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
