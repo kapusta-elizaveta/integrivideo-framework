@@ -6,13 +6,6 @@ namespace IntegriVideoProject.Pages.Billing
 {
     public class BillingPage 
     {
-        public static UIElement AddNewCardButton => new UIElement(FindBy.Xpath, "//a[contains(text(),'Add new')]");
-
-        public NewCardPage OpenCardPage()
-        {
-            Page.Projects.OpenBilling();
-            AddNewCardButton.Click();
-            return new NewCardPage();
-        }
+        public UIElement AddNewCardButton => new UIElement(FindBy.Xpath, "//a[contains(text(),'Add new')]");
     }
 }

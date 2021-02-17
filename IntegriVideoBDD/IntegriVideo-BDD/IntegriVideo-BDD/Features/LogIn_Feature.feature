@@ -6,9 +6,12 @@
 @mytag
 Scenario: Successful Login with Valid Credentials
 	Given User is at the LogIn Page
-	And User enter 'integriuser2@mailinator.com' username and 'integripassword' password
+	And User <enter> email and <password>
 	When Click on the LogIn button
 	Then LogOut button should display
+Examples:
+| emai                        | password        |
+| integriuser2@mailinator.com | integripassword | 
 
 Scenario: Successful LogOut
     Given User is in LogIn

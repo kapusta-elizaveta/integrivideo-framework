@@ -1,9 +1,11 @@
 ﻿Feature: Billing_Feature
-	Simple calculator for adding two numbers
 
 @mytag
-Scenario: Add two numbers
-	Given the first number is 50
-	And the second number is 70
-	When the two numbers are added
-	Then the result should be 120
+Scenario: Succesfull check wrong card
+	Given User is LogIn on the page 
+	And Open billing and click on add new card button
+	When user enter wrong: <number card>, <month>, <year> and <name>
+	Then apper message about wrong card
+Examples:
+| number card      | month | year | name    |
+| 2343566545342222 | 12    | 2021 | integri |

@@ -47,7 +47,6 @@
   <ItemGroup>
     <Compile Include="Billing\BillingPage.cs" />
     <Compile Include="Billing\NewCardPage.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="LoginPage.cs" />
     <Compile Include="MainPage.cs" />
     <Compile Include="PageObjects\Page.cs" />

@@ -1,5 +1,4 @@
-﻿using IntegriVideoProject.PageObjects;
-using WebCore;
+﻿using WebCore;
 using WebCore.Elements;
 
 namespace IntegriVideoProject.Pages.Projects
@@ -11,11 +10,5 @@ namespace IntegriVideoProject.Pages.Projects
 
         public UIElement ComponentCode => new UIElement(FindBy.Xpath, "//button[@class='btn']");
 
-        public void CreateComponent(string componentName)
-        {
-            Page.Project.AddComponent();
-            InputComponentName.SendKeys(componentName);
-            CreateButton.Click();
-        }
-    }
-}
+     }
+ }

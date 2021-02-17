@@ -1,5 +1,4 @@
 ﻿using IntegriVideoProject.PageObjects;
-using OpenQA.Selenium;
 using TechTalk.SpecFlow;
 using WebCore;
 
@@ -8,20 +7,20 @@ namespace IntegriVideo_BDD.Steps
     [Binding]
     public class LogIn_FeatureSteps : BaseStep
     {
-
+        //Successful Login with Valid Credentials
         [Given(@"User is at the LogIn Page")]
         public void GivenUserIsAtTheLogInPage()
         {
             Browser.Current.GoTo(Configurator.BaseUrl);
         }
-        
-        [Given(@"User enter '(.*)' username and '(.*)' password")]
-        public void GivenUserEnterUsernameAndPassword(string username, string password)
+
+        [Given(@"User (.*) email and (.*)")]
+        public void GivenUserEmailAnd(string email, string password)
         {
-            Page.Login.InputEmail.SendKeys(Configurator.Email);
-            Page.Login.InputPassword.SendKeys(Configurator.Password);
+            Page.Login.InputEmail.SendKeys(email);
+            Page.Login.InputPassword.SendKeys(password);
         }
-        
+
         [When(@"Click on the LogIn button")]
         public void WhenClickOnTheLogInButton()
         {
@@ -34,6 +33,7 @@ namespace IntegriVideo_BDD.Steps
             true.Equals(Page.Login.LogOutIcon.Displayed);
         }
 
+        //Successful LogOut
         [Given(@"User is in LogIn")]
         public void GivenUserIsInLogIn()
         {

@@ -20,15 +20,6 @@ namespace IntegriVideoProject.Pages.Projects
 
         public UIElement LibraryLink => new UIElement(FindBy.Xpath,"//a[@class='nav-link'][contains(text(),'Projects')]");
 
-        public void AddProject(string projectName, string projectDiscription, string domain)
-        {
-            Page.Projects.OpenAddProject();
-            InputProjectName.SendKeys(projectName);
-            InputProjectDiscription.SendKeys(projectDiscription);
-            InputDomain.SendKeys(domain);
-            CreateButton.Click();
-        }
-
         public int OpenProjectsPage(string xpathCountProject)
         {
             Browser.Current.OpenNewTab();

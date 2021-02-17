@@ -19,19 +19,6 @@ namespace IntegriVideoProject.Pages.Projects
 
         public UIElement LinkBilling => new UIElement(FindBy.Xpath, "//span[@class='iv-icon iv-icon-credit-card']");
 
-        public MainPage LogOut()
-        {
-            
-            Page.Login.LogOutIcon.Click();
-            return new MainPage();
-        }
-
-        public CreateProjectPage OpenAddProject()
-        {
-            AddProjectButton.Click();
-            return new CreateProjectPage();
-        }
-
         public ProjectPage OpenProject()
         {
             ProjectLink.Click();
