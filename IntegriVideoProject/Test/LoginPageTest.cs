@@ -1,4 +1,5 @@
-﻿using IntegriVideoProject.PageObjects;
+﻿using System;
+using IntegriVideoProject.PageObjects;
 using NUnit.Framework;
 
 namespace IntegriVideoProject.Test
@@ -12,6 +13,7 @@ namespace IntegriVideoProject.Test
         public void LogInTest()
         {
             Page.Login.LogIn("LogInTest");
+            Console.WriteLine("aaa");
             Assert.AreEqual(LOG_OUT, Page.Login.LogOutIcon.Text, "User didn't log in");
         }
     }

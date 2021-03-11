@@ -12,6 +12,7 @@
     <ItemGroup>
       <PackageReference Include="ExcelDataReader" Version="3.7.0-develop00310" />
       <PackageReference Include="ExcelDataReader.DataSet" Version="3.7.0-develop00310" />
+      <PackageReference Include="log4net" Version="2.0.12" />
       <PackageReference Include="Microsoft.Office.Interop.Excel" Version="15.0.4795.1000" />
       <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
     </ItemGroup>
