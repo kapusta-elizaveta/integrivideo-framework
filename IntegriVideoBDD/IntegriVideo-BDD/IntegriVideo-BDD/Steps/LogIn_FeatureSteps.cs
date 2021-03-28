@@ -1,10 +1,14 @@
 ﻿using IntegriVideoProject.PageObjects;
+using NUnit.Allure.Attributes;
+using NUnit.Allure.Core;
 using TechTalk.SpecFlow;
 using WebCore;
 
 namespace IntegriVideo_BDD.Steps
 {
     [Binding]
+    [AllureNUnit]
+    [AllureDisplayIgnored]
     public class LogIn_FeatureSteps : BaseStep
     {
         //Successful Login with Valid Credentials

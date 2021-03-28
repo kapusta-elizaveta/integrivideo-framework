@@ -1,10 +1,14 @@
 ﻿using System;
 using IntegriVideoProject.PageObjects;
+using NUnit.Allure.Attributes;
+using NUnit.Allure.Core;
 using NUnit.Framework;
 
 namespace IntegriVideoProject.Test
 {
     [TestFixture]
+    [AllureNUnit]
+    [AllureDisplayIgnored]
     class LoginPageTest : BasePageTest
     {
         private const string LOG_OUT = "Logout";

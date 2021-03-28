@@ -1,4 +1,6 @@
-﻿using NUnit.Framework;
+﻿using NUnit.Allure.Attributes;
+using NUnit.Allure.Core;
+using NUnit.Framework;
 using WebCore;
 
 namespace IntegriVideoProject.Test

@@ -7,8 +7,8 @@ namespace TestingAPI
 {
     
     [TestFixture]
-    //[AllureNUnit]
-    //[AllureDisplayIgnored]
+    [AllureNUnit]
+    [AllureDisplayIgnored]
     class SuggestionsDadataRu
     {
         private string BASE_URL = "https://suggestions.dadata.ru/suggestions/api/4_1/rs/suggest/fio";
