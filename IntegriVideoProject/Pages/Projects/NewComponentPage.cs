@@ -13,7 +13,7 @@ namespace IntegriVideoProject.Pages.Projects
 
         public void CreateComponent(string componentName)
         {
-            Page.Project.AddComponent();
+            //Page.Project.AddComponent();
             InputComponentName.SendKeys(componentName);
             CreateButton.Click();
         }

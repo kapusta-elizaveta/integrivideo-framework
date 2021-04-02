@@ -18,6 +18,7 @@ namespace IntegriVideoProject.Test.ProjectsTest
         {
             Page.Login.LogIn("LogInTest");
             int oldCountProject = Browser.Current.CountElements(By.XPath(XPATH_COUNT_PROJECTS));
+            Page.Projects.AddProjectButton.Click();
             Page.CreateProject.AddProject(PROJECT_NAME, PROJECT_DISCRIPTION, DOMAIN);
             string parentWindowHandle = Browser.Current.GetCurrentWindowName();
             int newCountProjects = Page.CreateProject.OpenProjectsPage(XPATH_COUNT_PROJECTS);

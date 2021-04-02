@@ -22,7 +22,7 @@ namespace IntegriVideoProject.Pages.Projects
 
         public void AddProject(string projectName, string projectDiscription, string domain)
         {
-            Page.Projects.OpenAddProject();
+            //Page.Projects.OpenAddProject();
             InputProjectName.SendKeys(projectName);
             InputProjectDiscription.SendKeys(projectDiscription);
             InputDomain.SendKeys(domain);

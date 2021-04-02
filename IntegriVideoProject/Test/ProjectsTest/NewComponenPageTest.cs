@@ -14,6 +14,8 @@ namespace IntegriVideoProject.Test.ProjectsTest
         public void CreateComponentTest()
         {
             Page.Login.LogIn("LogInTest");
+            Page.Projects.ProjectLink.Click();
+            Page.Project.IconComponentAdd.Click();
             Page.NewComponent.CreateComponent(COMPONENT_NAME);
             Browser.Current.Refresh();
             Assert.AreEqual(BUTTON_UPDATE, Page.NewComponent.ComponentCode.Text, "Component isn't created");

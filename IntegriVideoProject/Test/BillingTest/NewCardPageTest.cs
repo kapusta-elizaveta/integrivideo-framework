@@ -15,6 +15,8 @@ namespace IntegriVideoProject.Test.BillingTest
         public void AddWrongCardTest()
         {
             Page.Login.LogIn("LogInTest");
+            Page.Projects. LinkBilling.Click();
+            Page.Billing.AddNewCardButton.Click();
             Page.NewCard.AddWrongCard(NUMBER_CARD, MONTH, YEAR, NAME);
             Assert.True(Page.NewCard.IsWrongCard(), "Card is added");
         }

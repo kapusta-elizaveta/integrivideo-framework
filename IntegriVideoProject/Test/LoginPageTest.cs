@@ -7,8 +7,8 @@ using NUnit.Framework;
 namespace IntegriVideoProject.Test
 {
     [TestFixture]
-    [AllureNUnit]
-    [AllureDisplayIgnored]
+   // [AllureNUnit]
+  //  [AllureDisplayIgnored]
     class LoginPageTest : BasePageTest
     {
         private const string LOG_OUT = "Logout";

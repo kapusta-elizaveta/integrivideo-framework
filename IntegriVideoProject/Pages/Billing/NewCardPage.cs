@@ -24,7 +24,6 @@ namespace IntegriVideoProject.Pages.Billing
 
         public void AddWrongCard(string numberCard, string month, string year, string cardholderName)
         {
-            Page.Billing.OpenCardPage();
             InputNumberCard.SendKeys(numberCard);
             InputMonth.SendKeys(month);
             InputYear.SendKeys(year);

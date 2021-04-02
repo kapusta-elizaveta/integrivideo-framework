@@ -12,7 +12,7 @@ namespace IntegriVideoProject.Pages.Projects
 
         public ProjectsPage EditDescription(string description)
         {
-            Page.Project.OpenEditProject();
+            //Page.Project.OpenEditProject();
             Description.SendKeys(description);
             UpdateButton.Click();
             return new ProjectsPage();

@@ -12,8 +12,11 @@ namespace IntegriVideoProject.Test.ProjectsTest
         public void AddDiscriptionTest()
         {
             Page.Login.LogIn("LogInTest");
+            Page.Projects.ProjectLink.Click();
+            Page.Project.EditComponentLink.Click();
             Page.EditProject.EditDescription(DESCRIPTION);
-            Page.Projects.OpenProject();
+            Page.Projects.ProjectLink.Click();
+            //Page.Projects.OpenProject();
             Assert.AreEqual(DESCRIPTION, Page.Project.ProjectDescription.Text, "Description didn't edit");
         }
     }
