@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Configuration;
+using System.IO;
 using IntegriVideoProject.Pages.Projects;
 using log4net;
 using log4net.Config;
@@ -24,7 +26,8 @@ namespace IntegriVideoProject.Pages
 
         public ProjectsPage LogIn(string testName)
         {
-            BasicConfigurator.Configure();
+            //BasicConfigurator.Configure();
+            XmlConfigurator.Configure(new FileInfo("WebCore\\App.config"));
             Browser.Current.GoTo(Configurator.BaseUrl);
             log.Info("Flag has changed to EURO");
             //Logger.InitLogger();
