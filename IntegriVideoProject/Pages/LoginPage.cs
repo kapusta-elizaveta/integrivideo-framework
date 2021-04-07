@@ -26,16 +26,14 @@ namespace IntegriVideoProject.Pages
 
         public ProjectsPage LogIn(string testName)
         {
-            //BasicConfigurator.Configure();
-            XmlConfigurator.Configure(new FileInfo("WebCore\\App.config"));
+            Logger.InitLogger();
             Browser.Current.GoTo(Configurator.BaseUrl);
-            log.Info("Flag has changed to EURO");
-            //Logger.InitLogger();
-            //Запись в лог с уровнем "Debug"
-            Logger.Log.Debug("Логер проинициализирован!");
+            log.Info("Go to website " + Configurator.BaseUrl);
             InputEmail.SendKeys(Configurator.Email);
             InputPassword.SendKeys(Configurator.Password);
+            log.Info("Enter login data " + Configurator.Email +" and " + Configurator.Password);
             LogInButton.Click();
+            log.Info("Press login button");
             return new ProjectsPage();
         }
         

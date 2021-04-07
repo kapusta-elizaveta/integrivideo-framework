@@ -1,4 +1,5 @@
 ﻿using IntegriVideoProject.PageObjects;
+using log4net;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using WebCore;
@@ -8,6 +9,8 @@ namespace IntegriVideoProject.Test.ProjectsTest
     [TestFixture]
     class CreateProjectPageTest : BasePageTest
     {
+        public static readonly ILog log = LogManager.GetLogger(typeof(CreateProjectPageTest));
+        
         private const string PROJECT_NAME = "Project name";
         private const string PROJECT_DISCRIPTION = "Project discription";
         private const string DOMAIN = "test.com";
@@ -19,7 +22,9 @@ namespace IntegriVideoProject.Test.ProjectsTest
             Page.Login.LogIn("LogInTest");
             int oldCountProject = Browser.Current.CountElements(By.XPath(XPATH_COUNT_PROJECTS));
             Page.Projects.AddProjectButton.Click();
+            log.Info("Click to add project button");
             Page.CreateProject.AddProject(PROJECT_NAME, PROJECT_DISCRIPTION, DOMAIN);
+            log.Info("add project with data "+ PROJECT_NAME+ " " + PROJECT_DISCRIPTION + " "+ DOMAIN);
             string parentWindowHandle = Browser.Current.GetCurrentWindowName();
             int newCountProjects = Page.CreateProject.OpenProjectsPage(XPATH_COUNT_PROJECTS);
             Browser.Current.CloseWindow();
