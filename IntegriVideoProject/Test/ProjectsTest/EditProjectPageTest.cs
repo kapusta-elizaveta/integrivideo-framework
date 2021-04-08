@@ -21,7 +21,6 @@ namespace IntegriVideoProject.Test.ProjectsTest
             Page.EditProject.EditDescription(DESCRIPTION);
             log.Info("Add description");
             Page.Projects.ProjectLink.Click();
-            //Page.Projects.OpenProject();
             Assert.AreEqual(DESCRIPTION, Page.Project.ProjectDescription.Text, "Description didn't edit");
         }
     }

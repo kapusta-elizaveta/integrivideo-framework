@@ -10,13 +10,9 @@ namespace IntegriVideoProject.Pages.Projects
         private const string XPATH_PROJECT_LINK = "//div[@id='project-list']/div[@class='row']/div[4]";
 
         public UIElement AddProjectButton => new UIElement(FindBy.Xpath, "//div[@class='project new']//a");
-
         public UIElement ProjectLink => new UIElement(FindBy.Xpath, XPATH_PROJECT_LINK);
-
         public UIElement InputComponentName => new UIElement(FindBy.Xpath, "//input[@placeholder='New component']");
-
         public UIElement CreateButton => new UIElement(FindBy.Xpath, "//button[@class='btn']");
-
         public UIElement LinkBilling => new UIElement(FindBy.Xpath, "//span[@class='iv-icon iv-icon-credit-card']");
     }
 }

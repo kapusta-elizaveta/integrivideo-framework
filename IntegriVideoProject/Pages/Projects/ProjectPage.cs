@@ -11,18 +11,5 @@ namespace IntegriVideoProject.Pages.Projects
         public UIElement EditComponentLink => new UIElement(FindBy.Xpath, "//a[contains(text(),'Edit')]");
 
         public UIElement ProjectDescription => new UIElement(FindBy.Xpath, "//div[@class='col-12 description']");
-
-        /*public void AddComponent()
-        {
-            Page.Projects.OpenProject();
-            IconComponentAdd.Click();
-        }*/
-
-        /*public EditProjectPage OpenEditProject()
-        {
-            Page.Projects.OpenProject();
-            EditComponentLink.Click();
-            return new EditProjectPage();
-        }*/
     }
 }

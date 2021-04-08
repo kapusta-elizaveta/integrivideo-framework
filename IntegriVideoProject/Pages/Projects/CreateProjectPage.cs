@@ -7,7 +7,6 @@ namespace IntegriVideoProject.Pages.Projects
 {
     public class CreateProjectPage 
     {
-
         public UIElement InputProjectName => new UIElement(FindBy.Xpath, "//input[@placeholder='New project']");
 
         public UIElement InputProjectDiscription => new UIElement(FindBy.Xpath, "//textarea[@placeholder='Type here...']");
@@ -22,7 +21,6 @@ namespace IntegriVideoProject.Pages.Projects
 
         public void AddProject(string projectName, string projectDiscription, string domain)
         {
-            //Page.Projects.OpenAddProject();
             InputProjectName.SendKeys(projectName);
             InputProjectDiscription.SendKeys(projectDiscription);
             InputDomain.SendKeys(domain);

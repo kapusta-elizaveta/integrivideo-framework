@@ -11,7 +11,6 @@ namespace IntegriVideoProject.Pages
 {
     public class LoginPage 
     {
-        //public static readonly ILog log = LogManager.GetLogger(typeof(LoginPage));
         public static readonly ILog log = LogManager.GetLogger(typeof(LoginPage));
 
         private const string XPATH_EMAIL = "//input[@placeholder='Email']";

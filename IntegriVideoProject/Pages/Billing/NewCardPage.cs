@@ -11,13 +11,9 @@ namespace IntegriVideoProject.Pages.Billing
 
         public static UIElement InputNumberCard => new UIElement(FindBy.Xpath,
              "//input[@placeholder='0000 0000 0000 0000']");
-        
         public static UIElement AppearWrongMessage => new UIElement(FindBy.Xpath, "//input[@placeholder='MM']");
-
         public static UIElement InputMonth => new UIElement(FindBy.Xpath, "//input[@placeholder='MM']");
-
         public static UIElement InputYear => new UIElement(FindBy.Xpath, "//input[@placeholder='YYYY']");
-
         public static UIElement InputCardholderName => new UIElement(FindBy.Xpath,
             "//input[@placeholder='Cardholder name']");
         public static UIElement AddButton => new UIElement(FindBy.Xpath, XPATH_ADD_CARD_BUTTON);
