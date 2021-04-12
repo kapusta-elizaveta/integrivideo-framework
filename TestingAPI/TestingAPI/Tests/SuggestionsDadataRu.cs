@@ -1,4 +1,6 @@
 ﻿using Newtonsoft.Json.Linq;
+using NUnit.Allure.Attributes;
+using NUnit.Allure.Core;
 using NUnit.Framework;
 using RestSharp;
 using System.Net;

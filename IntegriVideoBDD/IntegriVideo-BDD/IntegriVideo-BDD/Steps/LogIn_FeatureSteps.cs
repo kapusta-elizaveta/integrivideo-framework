@@ -1,6 +1,9 @@
 ﻿using IntegriVideoProject.PageObjects;
 using NUnit.Allure.Attributes;
 using NUnit.Allure.Core;
+/*using NUnit.Allure.Attributes;
+using NUnit.Allure.Core;*/
+using NUnit.Framework;
 using TechTalk.SpecFlow;
 using WebCore;
 
@@ -53,6 +56,7 @@ namespace IntegriVideo_BDD.Steps
         [Then(@"LogIn button should display")]
         public void ThenLogInButtonShouldDisplay()
         {
+            Assert.True(Page.MainPage.LogInButton().Displayed);
             true.Equals(Page.MainPage.LogInButton().Displayed);
         }
     }

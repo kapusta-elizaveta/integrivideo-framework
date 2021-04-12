@@ -1,5 +1,7 @@
 ﻿using System.Net;
 using Newtonsoft.Json.Linq;
+using NUnit.Allure.Attributes;
+using NUnit.Allure.Core;
 using NUnit.Framework;
 using RestSharp;
 using RestSharp.Serialization.Json;
@@ -8,8 +10,8 @@ namespace TestingAPI
 {
 
     [TestFixture]
-   // [AllureNUnit]
-   // [AllureDisplayIgnored]
+    [AllureNUnit]
+    [AllureDisplayIgnored]
     public class UsersBugred
     {
         private RestClient client;
