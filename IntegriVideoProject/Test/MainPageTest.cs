@@ -1,6 +1,8 @@
-﻿using IntegriVideoProject.PageObjects;
+﻿using Allure.Commons;
+using IntegriVideoProject.PageObjects;
 using IntegriVideoProject.Pages;
 using log4net;
+using NUnit.Allure.Attributes;
 using NUnit.Framework;
 
 namespace IntegriVideoProject.Test
@@ -11,7 +13,9 @@ namespace IntegriVideoProject.Test
         public static readonly ILog log = LogManager.GetLogger(typeof(MainPageTest));
         private const string TEXT_LOG_IN_BUTTON = "Log in";
 
-        [Test, Description("LogOut Test")]
+        [Test, Description("Log Out")]
+        [AllureSeverity(SeverityLevel.critical)]
+        [AllureTag("Regression")]
         public void LogOutTest()
         {
             Page.Login.LogIn("LogInTest");

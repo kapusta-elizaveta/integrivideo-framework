@@ -1,5 +1,7 @@
-﻿using IntegriVideoProject.PageObjects;
+﻿using Allure.Commons;
+using IntegriVideoProject.PageObjects;
 using log4net;
+using NUnit.Allure.Attributes;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using WebCore;
@@ -16,7 +18,9 @@ namespace IntegriVideoProject.Test.ProjectsTest
         private const string DOMAIN = "test.com";
         private const string XPATH_COUNT_PROJECTS = "//div[@class='col-xl-4 col-sm-6']";
 
-        [Test, Description("Create Project Test")]
+        [Test, Description("Create Project")]
+        [AllureSeverity(SeverityLevel.critical)]
+        [AllureTag("Regression")]
         public void CreateProjectTest()
         {
             Page.Login.LogIn("LogInTest");

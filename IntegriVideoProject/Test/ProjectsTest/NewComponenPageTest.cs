@@ -1,5 +1,7 @@
-﻿using IntegriVideoProject.PageObjects;
+﻿using Allure.Commons;
+using IntegriVideoProject.PageObjects;
 using log4net;
+using NUnit.Allure.Attributes;
 using NUnit.Framework;
 using WebCore;
 
@@ -14,6 +16,8 @@ namespace IntegriVideoProject.Test.ProjectsTest
         private const string BUTTON_UPDATE = "Update";
 
         [Test, Description("Component should be created")]
+        [AllureSeverity(SeverityLevel.critical)]
+        [AllureTag("Regression")]
         public void CreateComponentTest()
         {
             Page.Login.LogIn("LogInTest");

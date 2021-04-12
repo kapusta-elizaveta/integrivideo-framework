@@ -1,5 +1,7 @@
-﻿using IntegriVideoProject.PageObjects;
+﻿using Allure.Commons;
+using IntegriVideoProject.PageObjects;
 using log4net;
+using NUnit.Allure.Attributes;
 using NUnit.Framework;
 
 namespace IntegriVideoProject.Test.ProjectsTest
@@ -10,7 +12,9 @@ namespace IntegriVideoProject.Test.ProjectsTest
         public static readonly ILog log = LogManager.GetLogger(typeof(EditProjectPageTest));
         private const string DESCRIPTION = "Edit description";
 
-        [Test, Description("Add Discription Test")]
+        [Test, Description("Add Discription in the project")]
+        [AllureSeverity(SeverityLevel.critical)]
+        [AllureTag("Regression")]
         public void AddDiscriptionTest()
         {
             Page.Login.LogIn("LogInTest");

@@ -8,8 +8,8 @@ using WebCore;
 namespace IntegriVideoProject.Test
 {
     [TestFixture]
-    //[AllureNUnit]
-    //[AllureDisplayIgnored]
+    [AllureNUnit]
+    [AllureDisplayIgnored]
     public class BasePageTest
     {
         public Browser _browser;

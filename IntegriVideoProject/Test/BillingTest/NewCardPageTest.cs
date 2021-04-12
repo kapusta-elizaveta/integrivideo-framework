@@ -1,6 +1,8 @@
-﻿using IntegriVideoProject.PageObjects;
+﻿using Allure.Commons;
+using IntegriVideoProject.PageObjects;
 using IntegriVideoProject.Test.ProjectsTest;
 using log4net;
+using NUnit.Allure.Attributes;
 using NUnit.Framework;
 
 namespace IntegriVideoProject.Test.BillingTest
@@ -15,7 +17,9 @@ namespace IntegriVideoProject.Test.BillingTest
         private const string YEAR = "2021";
         private const string NAME = "integri";
 
-        [Test, Description("Add Wrong Card Test")]
+        [Test, Description("Add Wrong Card")]
+        [AllureSeverity(SeverityLevel.critical)]
+        [AllureTag("Regression")]
         public void AddWrongCardTest()
         {
             Page.Login.LogIn("LogInTest");
